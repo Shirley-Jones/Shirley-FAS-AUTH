@@ -4,7 +4,7 @@
 ## 编译说明
 * 先安装支持库: yum install mariadb-devel curl libcurl-devel openssl openssl-devel gcc gcc++ gdb -y
 * 编译 gcc -std=gnu99 监控源码文件 -o 编译后的文件名 -L/usr/lib64/mysql/ -lmysqlclient  -lcurl -lcrypto
-* 举个例子 gcc -std=gnu99 /root/ZeroAUTH_V1.5.c -o /root/ZeroAUTH.bin -L/usr/lib64/mysql/ -lmysqlclient  -lcurl -lcrypto
+* 举个例子 gcc -std=gnu99 /root/Shirley_FasAUTH_V1.1.c -o /root/Shirley_FasAUTH.bin -L/usr/lib64/mysql/ -lmysqlclient  -lcurl -lcrypto
 
 ## 使用方法
 * 先安装FAS流控(Shirley提供的FAS内置此监控，您可以直接使用一键脚本安装)
