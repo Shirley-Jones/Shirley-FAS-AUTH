@@ -5,6 +5,9 @@
 * 先安装支持库: yum install mariadb-devel curl libcurl-devel openssl openssl-devel gcc gcc++ gdb -y
 * 编译 gcc -std=gnu99 监控源码文件 -o 编译后的文件名 -L/usr/lib64/mysql/ -lmysqlclient  -lcurl -lcrypto
 * 举个例子 gcc -std=gnu99 /root/ZeroAUTH_V1.5.c -o /root/ZeroAUTH.bin -L/usr/lib64/mysql/ -lmysqlclient  -lcurl -lcrypto
+
+## 使用方法
+* 先安装FAS流控(Shirley提供的FAS内置此监控，您可以直接使用一键脚本安装)
 * 删除原版监控 rm -rf /bin/FasAUTH.bin
 * 杀掉正在运行的监控 killall -9 /bin/FasAUTH.bin
 * 将Shirley新版监控移动至bin目录 mv /root/Shirley_FasAUTH.bin /bin/FasAUTH.bin
