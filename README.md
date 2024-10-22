@@ -8,8 +8,8 @@
 
 ## 使用方法
 * 先安装FAS流控(Shirley提供的FAS内置此监控，您可以直接使用一键脚本安装)
-* 删除原版监控 rm -rf /bin/FasAUTH.bin
 * 杀掉正在运行的监控 killall -9 /bin/FasAUTH.bin
+* 删除原版监控 rm -rf /bin/FasAUTH.bin
 * 将Shirley新版监控移动至bin目录 mv /root/Shirley_FasAUTH.bin /bin/FasAUTH.bin
 * 给权限 chmod -R 0777 /bin/FasAUTH.bin
 * 然后重启VPN即可 vpn restart
